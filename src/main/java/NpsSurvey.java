@@ -4,7 +4,7 @@ public class NpsSurvey {
     String reason;
     String type;
     int score;
-    int id;
+    final int id;
 
     public NpsSurvey(Contact contact, String reason, String type, int score) {
         this.contact = contact;
