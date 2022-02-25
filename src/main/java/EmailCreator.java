@@ -17,7 +17,6 @@ public class EmailCreator {
 
     public EmailCreator(NpsSurvey survey) {
         this.survey = survey;
-        loadFile();
     }
 
     private BufferedReader loadFile() {
