@@ -1,10 +1,10 @@
 public class NpsSurvey {
 
+    final int id;
     Contact contact;
     String reason;
     String type;
     int score;
-    final int id;
 
     public NpsSurvey(Contact contact, String reason, String type, int score) {
         this.contact = contact;
